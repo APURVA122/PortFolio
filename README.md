@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Apurva Jain — Retro Terminal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal portfolio built with React, styled as an old 2000s CRT computer screen / green-phosphor terminal. Navigate through sections (About, Projects, Experience, Skills, Contact) like running programs on a retro OS.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Boot-sequence landing screen with typewriter animation
+- Numbered menu navigation (`1`–`5`) — click or use keyboard shortcuts
+- CRT effects: scanlines, flicker, and screen glow
+- Green phosphor monospace theme (VT323 font)
+- Modular section components driven by a single data file
 
-### `npm start`
+## Project structure
+src/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+├── components/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+│   ├── BootScreen.js       # Boot sequence + main menu
 
-### `npm test`
+│   ├── Terminal.js          # Reusable terminal window wrapper
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+│   ├── AboutSection.js
 
-### `npm run build`
+│   ├── ProjectsSection.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+│   ├── ExperienceSection.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+│   ├── SkillsSection.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+│   ├── ContactSection.js
 
-### `npm run eject`
+│   └── CRTOverlay.js        # Scanlines + flicker overlay
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+├── data/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+│   └── resumeData.js         # All resume content lives here
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+├── App.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+├── index.js
 
-## Learn More
+└── index.css                 # CRT styling, green phosphor theme
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Getting started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. git clone https://github.com/APURVA122/PortFolio.git
+2. Install dependencies:
+```bash
+   npm install
+```
+3. Start the dev server:
+```bash
+   npm start      # Create React App
+   # or
+   npm run dev    # Vite
+```
 
-### Code Splitting
+## Customizing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+All resume content (name, education, projects, experience, skills, contact info) lives in `src/data/resumeData.js`. Edit that file to update what's displayed — no need to touch the components.
 
-### Analyzing the Bundle Size
+To tweak the visual theme (colors, scanline intensity, fonts), edit `src/index.css`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
