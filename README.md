@@ -1,15 +1,31 @@
-# Apurva Jain — Portfolio v2
+🖥️ Apurva Jain — Portfolio v2
 
-Win98 OS simulation portfolio with midnight blue + neon cyan theme.
+A fully interactive Windows 98-inspired portfolio built with React and Vite, featuring a nostalgic desktop environment, draggable windows, a Start Menu, taskbar navigation, and a modern midnight-blue neon aesthetic.
 
-## Stack
-React 18 + Vite. Zero extra dependencies.
+Visitors can explore my projects, coding achievements, technical skills, leadership experience, and contact information through an immersive retro operating system experience.
+
+✨ Features
+🖥️ Windows 98 desktop simulation
+🚀 Boot screen experience
+📂 Draggable and focusable windows
+📌 Interactive taskbar and Start Menu
+🎯 Desktop shortcuts for navigation
+🌙 Midnight Blue + Neon Cyan theme
+📱 Responsive design
+⚡ Fast and lightweight React + Vite setup
+📊 Competitive Programming Statistics
+💼 Projects, Skills, Experience & Contact Sections
+
+🛠️ Tech Stack
+⚛️ React 18
+⚡ Vite
+🎨 CSS3
+📜 JavaScript (ES6+)
 
 ## Run
 ```bash
 npm install
-npm run dev    # http://localhost:5173
-npm run build  # production build for Vercel
+npm run dev 
 ```
 
 ## Structure
@@ -22,11 +38,16 @@ src/
 ├── index.jsx        # Entry point
 └── index.css        # Win98 chrome + section styles
 ```
+📞 Contact
 
-## Customizing
-- **Content**: `src/data/resumeData.js`
-- **Add a window**: add to `WIN_CFGS` and `DESKTOP_ICONS` in `App.jsx`, create a component in `src/components/`
-- **Colors**: neon accent is `#00ffff`, purple is `#a78bfa`, green is `#34d399` — search `index.css`
+📧 Email: mj8893854@gmail.com
+
+💼 LinkedIn:
+https://www.linkedin.com/in/apurva-jain-9462a7330/
+
+💻 GitHub:
+https://github.com/APURVA122
+
 
 ## License
 MIT © 2026 Apurva Jain
