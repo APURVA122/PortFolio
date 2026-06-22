@@ -1,66 +1,32 @@
-# Apurva Jain — Retro Terminal Portfolio
+# Apurva Jain — Portfolio v2
 
-A personal portfolio built with React, styled as an old 2000s CRT computer screen / green-phosphor terminal. Navigate through sections (About, Projects, Experience, Skills, Contact) like running programs on a retro OS.
+Win98 OS simulation portfolio with midnight blue + neon cyan theme.
 
-## Features
+## Stack
+React 18 + Vite. Zero extra dependencies.
 
-- Boot-sequence landing screen with typewriter animation
-- Numbered menu navigation (`1`–`5`) — click or use keyboard shortcuts
-- CRT effects: scanlines, flicker, and screen glow
-- Green phosphor monospace theme (VT323 font)
-- Modular section components driven by a single data file
-
-## Project structure
-src/
-
-├── components/
-
-│   ├── BootScreen.js       # Boot sequence + main menu
-
-│   ├── Terminal.js          # Reusable terminal window wrapper
-
-│   ├── AboutSection.js
-
-│   ├── ProjectsSection.js
-
-│   ├── ExperienceSection.js
-
-│   ├── SkillsSection.js
-
-│   ├── ContactSection.js
-
-│   └── CRTOverlay.js        # Scanlines + flicker overlay
-
-├── data/
-
-│   └── resumeData.js         # All resume content lives here
-
-├── App.js
-
-├── index.js
-
-└── index.css                 # CRT styling, green phosphor theme
-
-## Getting started
-
-1. git clone https://github.com/APURVA122/PortFolio.git
-2. Install dependencies:
+## Run
 ```bash
-   npm install
+npm install
+npm run dev    # http://localhost:5173
+npm run build  # production build for Vercel
 ```
-3. Start the dev server:
-```bash
-   npm start      # Create React App
-   # or
-   npm run dev    # Vite
+
+## Structure
+```
+src/
+├── os/              # OS engine (window manager, Window, Taskbar, StartMenu, DesktopIcon)
+├── components/      # Section content + BootScreen
+├── data/            # resumeData.js — edit this to update content
+├── App.jsx          # Desktop orchestrator
+├── index.jsx        # Entry point
+└── index.css        # Win98 chrome + section styles
 ```
 
 ## Customizing
-
-All resume content (name, education, projects, experience, skills, contact info) lives in `src/data/resumeData.js`. Edit that file to update what's displayed — no need to touch the components.
-
-To tweak the visual theme (colors, scanline intensity, fonts), edit `src/index.css`.
+- **Content**: `src/data/resumeData.js`
+- **Add a window**: add to `WIN_CFGS` and `DESKTOP_ICONS` in `App.jsx`, create a component in `src/components/`
+- **Colors**: neon accent is `#00ffff`, purple is `#a78bfa`, green is `#34d399` — search `index.css`
 
 ## License
-
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
+MIT © 2026 Apurva Jain
