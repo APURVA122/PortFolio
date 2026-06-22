@@ -1,4 +1,4 @@
-# 🖥️ Apurva Jain — Portfolio v2
+# 🖥️ Apurva Jain — Portfolio 
 
 A fully interactive **Windows 98-inspired portfolio** built with React and Vite, featuring a nostalgic desktop environment, draggable windows, a Start Menu, taskbar navigation, and a modern midnight-blue neon aesthetic.
 
