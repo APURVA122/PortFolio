@@ -21,16 +21,6 @@ Visitors can explore my projects, coding achievements, technical skills, leaders
 
 ---
 
-## 🛠️ Tech Stack
-
-- ⚛️ React 18
-- ⚡ Vite
-- 🎨 CSS3
-- 📜 JavaScript (ES6+)
-
----
-
-
 ## Run
 ```bash
 npm install
