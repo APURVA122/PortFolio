@@ -70,7 +70,7 @@ export const resumeData = {
     {
       id: "glowmind",
       title: "GlowMind AI",
-      emoji: "🧠",
+      emoji: "🌸",
       tagline: "MERN · JWT + Google OAuth · Chrome Extension",
       summary:
         "Full-stack MERN app for intelligent note-taking with secure auth and AI-ready architecture. Features glassmorphism UI, MongoDB Atlas storage, and a Chrome Extension (Manifest V3).",
