@@ -1,26 +1,35 @@
-🖥️ Apurva Jain — Portfolio v2
+# 🖥️ Apurva Jain — Portfolio v2
 
-A fully interactive Windows 98-inspired portfolio built with React and Vite, featuring a nostalgic desktop environment, draggable windows, a Start Menu, taskbar navigation, and a modern midnight-blue neon aesthetic.
+A fully interactive **Windows 98-inspired portfolio** built with React and Vite, featuring a nostalgic desktop environment, draggable windows, a Start Menu, taskbar navigation, and a modern midnight-blue neon aesthetic.
 
 Visitors can explore my projects, coding achievements, technical skills, leadership experience, and contact information through an immersive retro operating system experience.
 
-✨ Features
-🖥️ Windows 98 desktop simulation
-🚀 Boot screen experience
-📂 Draggable and focusable windows
-📌 Interactive taskbar and Start Menu
-🎯 Desktop shortcuts for navigation
-🌙 Midnight Blue + Neon Cyan theme
-📱 Responsive design
-⚡ Fast and lightweight React + Vite setup
-📊 Competitive Programming Statistics
-💼 Projects, Skills, Experience & Contact Sections
+---
 
-🛠️ Tech Stack
-⚛️ React 18
-⚡ Vite
-🎨 CSS3
-📜 JavaScript (ES6+)
+## ✨ Features
+
+- 🖥️ Windows 98 desktop simulation
+- 🚀 Boot screen experience
+- 📂 Draggable and focusable windows
+- 📌 Interactive taskbar and Start Menu
+- 🎯 Desktop shortcuts for navigation
+- 🌙 Midnight Blue + Neon Cyan theme
+- 📱 Responsive design
+- ⚡ Fast and lightweight React + Vite setup
+- 📊 Competitive Programming Statistics
+- 💼 Projects, Skills, Experience & Contact Sections
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React 18
+- ⚡ Vite
+- 🎨 CSS3
+- 📜 JavaScript (ES6+)
+
+---
+
 
 ## Run
 ```bash
